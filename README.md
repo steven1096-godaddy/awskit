@@ -6,21 +6,21 @@ This is a project put together to help manage AWS infrastructure, and hopefully 
 
 It relies heavily on convention over confifguration, leaning on the most common services requested and performed. 
 
-### How to use
+## How to use
 
-#### Clone the repository
+### Clone the repository
 ```bash
 user@host ~ $ git clone git@github.com:steven1096-godaddy/awskit.git
 
 ```
 
-#### Create a Symbolic soft link, in your infrastructure's root directory
+### Create a Symbolic soft link, in your infrastructure's root directory
 ```bash
 user@host ~ $ cd /path/to/infra/root && ln -s /path/to/awskit
 
 ```
 
-#### Run as a module | Some Examples
+### Run as a module | Some Examples
 ```bash
 user@host ~ $ python3 -m awskit --help
 
