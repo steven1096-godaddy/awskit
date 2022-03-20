@@ -22,7 +22,7 @@ user@host ~ $ cd /path/to/infra/root && ln -s /path/to/awskit
 
 #### Run as a module | Some Examples
 ```bash
-user@host ~ $ python3 -m awskit
+user@host ~ $ python3 -m awskit --help
 
 user@host ~ $ python3 -m awskit domains list
 
